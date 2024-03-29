@@ -45,5 +45,4 @@ def upload():
     else:
         return jsonify({'error': 'Error processing file'})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
