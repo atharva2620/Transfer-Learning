@@ -24,11 +24,10 @@ def process_image(image):
     predicted_class = class_labels[np.argmax(prediction)]
     return predicted_class
 
-@app.route('/')
+
 def index():
     return render_template('index.html')
 
-@app.route('/upload', methods=['POST'])
 def upload():
     if 'file' not in request.files:
         return jsonify({'error': 'No file part'})
