@@ -9,8 +9,6 @@ Original file is located at
 
 # app.py
 
-app = Flask(__name__)
-
 # Load your trained model
 model = tf.keras.models.load_model('your_model.h5')
 
