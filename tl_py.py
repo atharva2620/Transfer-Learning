@@ -9,11 +9,6 @@ Original file is located at
 
 # app.py
 
-from flask import Flask, render_template, request, jsonify
-from PIL import Image
-import numpy as np
-import tensorflow as tf
-
 app = Flask(__name__)
 
 # Load your trained model
