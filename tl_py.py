@@ -9,9 +9,6 @@ Original file is located at
 
 # app.py
 
-# Load your trained model
-model = tf.keras.models.load_model('your_model.h5')
-
 # Define class labels
 class_labels = ["Normal", "Pneumonia", "Covid-19", "Tuberculosis"]
 
